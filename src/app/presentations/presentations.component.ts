@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class PresentationsComponent implements OnInit {
 
   constructor() { }
-
+  greeting= {
+    username: "Abel Pouillet",
+    title: "Bonjour, Je suis Abel Pouillet",
+    subTitle: "Un dévellopeur fullstack passioner 🚀 J'ai de l'expérience dans le développement d'application web et mobile avec Ionic / Angularjs / Nodejs / php et quelques autres languages et Frameworks.",
+  }
   ngOnInit(): void {
   }
 

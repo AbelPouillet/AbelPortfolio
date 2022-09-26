@@ -14,7 +14,6 @@ import { DocumentsComponent } from './documents/documents.component';
 import { ParcourComponent } from './parcour/parcour.component';
 import { ExperiencesComponent } from './experiences/experiences.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,11 +31,10 @@ import { ExperiencesComponent } from './experiences/experiences.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
 
- }
+}

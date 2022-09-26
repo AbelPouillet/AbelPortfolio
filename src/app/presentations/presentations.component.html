@@ -1,1 +1,42 @@
-<p>presentations works!</p>
+
+<div class="greet-main" id="presentations">
+  <div class="greeting-main" >
+    <div class="greeting-text-div">
+      <div>
+        <h1 class="greeting-text">
+          {{greeting.title}}
+          <span class="wave-emoji">👋</span>
+        </h1>
+        <p class="greeting-text-p subTitle">{{greeting.subTitle}}</p>
+        <div class="social-media-div">
+          <a href="https://github.com/AbelPouillet" class="icon-button github" target="_blank">
+            <i class="fab fa-github"></i>
+            <span></span>
+          </a>
+            <a href="https://www.linkedin.com/in/abel-pouillet-b24132204/" class="icon-button linkedin" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+              <span></span>
+            </a>
+            <a href="{{'mailto:' + 'abelix.pouillet@gmail.com'}}" class="icon-button google" target="_blank">
+              <i class="fab fa-google"></i>
+              <span></span>
+            </a>
+        </div>
+        <div class="button-greeting-div">
+<!--        button-->
+          <div>
+            <a class="main-button" href="#contact">Contactez moi</a>
+          </div>
+          <div>
+            <a class="main-button" href="#documents">Voir mon CV et mes certifications</a>
+          </div>
+<!--          <Button text="Contact me" href="#contact" />-->
+<!--          <Button text="See my resume" newTab={true} href={greeting.resumeLink} />-->
+        </div>
+      </div>
+    </div>
+    <div class="greeting-image-div">
+      <img src="../../assets/images/manOnTable.svg" alt="Sarthak sitting on table">
+    </div>
+  </div>
+</div>
